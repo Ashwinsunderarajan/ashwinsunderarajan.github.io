@@ -4,16 +4,16 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RIOCART</title>
+<title>AFTER LOGIN / SIGNUP</title>
 <style id="applicationStylesheet" type="text/css">
 	.mediaViewInfo {
-		--web-view-name: homepage;
-		--web-view-id: homepage;
+		--web-view-name: AFTER LOGIN / SIGNUP;
+		--web-view-id: AFTER_LOGIN___SIGNUP;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
 	:root {
-		--web-view-ids: homepage;
+		--web-view-ids: AFTER_LOGIN___SIGNUP;
 	}
 	* {
 		margin: 0;
@@ -21,14 +21,14 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#homepage {
+	#AFTER_LOGIN___SIGNUP {
 		position: absolute;
 		width: 1080px;
 		height: 2827px;
 		background-color: rgba(58,60,72,1);
 		overflow: hidden;
-		--web-view-name: homepage;
-		--web-view-id: homepage;
+		--web-view-name: AFTER LOGIN / SIGNUP;
+		--web-view-id: AFTER_LOGIN___SIGNUP;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
@@ -57,42 +57,6 @@
 		height: 247px;
 		left: -3px;
 		top: 0px;
-	}
-	#SIGN_UP {
-		position: absolute;
-		left: 873px;
-		top: 49px;
-		overflow: visible;
-		width: 114px;
-		white-space: nowrap;
-		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: sign_up_page.html;
-		cursor: pointer;
-		text-align: left;
-		font-family: Segoe UI;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 30px;
-		color: rgba(255,255,255,1);
-	}
-	#LOG_IN {
-		position: absolute;
-		left: 739px;
-		top: 49px;
-		overflow: visible;
-		width: 96px;
-		white-space: nowrap;
-		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: login_page.html;
-		cursor: pointer;
-		text-align: left;
-		font-family: Segoe UI;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 30px;
-		color: rgba(255,255,255,1);
 	}
 	.Rectangle_2 {
 		position: absolute;
@@ -160,7 +124,7 @@
 	.Path_124 {
 		overflow: visible;
 		position: absolute;
-		width: 33.895px;
+		width: 33.896px;
 		height: 43.172px;
 		left: 2.333px;
 		top: 0px;
@@ -173,6 +137,10 @@
 		height: 254px;
 		left: 48px;
 		top: 353px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: MOBILES.html;
+		cursor: pointer;
 	}
 	#MOBILE_PHONE {
 		position: absolute;
@@ -255,10 +223,6 @@
 		left: 73px;
 		top: 368px;
 		overflow: visible;
-		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: MOBILES_FROM_UNSIGN.html;
-		cursor: pointer;
 	}
 	.Rectangle_315 {
 		position: absolute;
@@ -360,7 +324,7 @@
 		font-size: 20px;
 		color: rgba(10,115,18,1);
 	}
-	#Flat_50__offer_bi {
+	#Flat_50__offer_bg {
 		position: absolute;
 		left: 192px;
 		top: 1879px;
@@ -758,11 +722,19 @@
 	.Path_150 {
 		overflow: visible;
 		position: absolute;
-		width: 55.586px;
+		width: 55.585px;
 		height: 51.417px;
 		left: 0px;
 		top: 0.667px;
 		transform: matrix(1,0,0,1,0,0);
+	}
+	#profile {
+		position: absolute;
+		width: 166px;
+		height: 93px;
+		left: 874px;
+		top: 31px;
+		overflow: visible;
 	}
 </style>
 <script id="applicationScript">
@@ -3189,18 +3161,12 @@ window.application = new Application();
 </script>
 </head>
 <body>
-<div id="homepage">
+<div id="AFTER_LOGIN___SIGNUP">
 	<img id="diwali_offer" src="diwali_offer.png" srcset="diwali_offer.png 1x, diwali_offer@2x.png 2x">
 	<svg class="Rectangle_1">
 		<rect fill="rgba(8,13,44,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1085" height="247">
 		</rect>
 	</svg>
-	<div onclick="application.goToTargetView(event)" id="SIGN_UP">
-		<span>SIGN UP</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" id="LOG_IN">
-		<span>LOG IN</span>
-	</div>
 	<svg class="Rectangle_2">
 		<rect fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_2" rx="30" ry="30" x="0" y="0" width="1039" height="91">
 		</rect>
@@ -3229,7 +3195,7 @@ window.application = new Application();
 		</svg>
 	</div>
 	<svg class="Rectangle_314">
-		<rect fill="rgba(184,184,184,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_314" rx="0" ry="0" x="0" y="0" width="299" height="254">
+		<rect fill="rgba(184,184,184,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" onclick="application.goToTargetView(event)" id="Rectangle_314" rx="0" ry="0" x="0" y="0" width="299" height="254">
 		</rect>
 	</svg>
 	<div id="MOBILE_PHONE">
@@ -3251,7 +3217,7 @@ window.application = new Application();
 	</div>
 	<img id="electronic" src="electronic.png" srcset="electronic.png 1x, electronic@2x.png 2x">
 	<img id="FASION_" src="FASION_.png" srcset="FASION_.png 1x, FASION_@2x.png 2x">
-	<img onclick="application.goToTargetView(event)" id="mobile" src="mobile.png" srcset="mobile.png 1x, mobile@2x.png 2x">
+	<img id="mobile" src="mobile.png" srcset="mobile.png 1x, mobile@2x.png 2x">
 	<svg class="Rectangle_315">
 		<rect fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_315" rx="0" ry="0" x="0" y="0" width="998" height="907">
 		</rect>
@@ -3275,7 +3241,7 @@ window.application = new Application();
 	<div id="Flat_50__offer">
 		<span>Flat 50% offer</span>
 	</div>
-	<div id="Flat_50__offer_bi">
+	<div id="Flat_50__offer_bg">
 		<span>Flat 50% offer</span>
 	</div>
 	<div id="Flat_80__offer">
@@ -3392,6 +3358,7 @@ window.application = new Application();
 			</path>
 		</svg>
 	</div>
+	<img id="profile" src="profile.png" srcset="profile.png 1x, profile@2x.png 2x">
 </div>
 </body>
 </html>
